@@ -12,11 +12,6 @@ app.get('/',(req,res)=>{
 	});
 
 
-//when a specific collection is clicked 
-app.get('/collections/:collection',(req,res)=>{
-	res.send('book collection here ')
-	});
-
 //when a book needs updating 
 app.post('/collections/collection/:book',(req,res)=>{
 	res.send('book collections here ')
